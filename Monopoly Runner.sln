@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyRunner.App", "MonopolyRunner.App\MonopolyRunner.App.csproj", "{76AD919B-866D-426B-B55B-79E857788773}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyRunner.MainApp", "MonopolyRunner.App\MonopolyRunner.App.csproj", "{76AD919B-866D-426B-B55B-79E857788773}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyRunner.Domains", "MonopolyRunner.Domains\MonopolyRunner.Domains.csproj", "{C9D7F167-FD0C-4560-A61A-E0105C22F891}"
 EndProject
