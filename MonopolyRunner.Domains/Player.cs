@@ -14,6 +14,7 @@ namespace MonopolyRunner.Domains
             Board = board;
             Name = name;
             Balance = balance;
+            OwnedProperties = new List<PropertyGameSquare>();
         }
 
         public string Name { get; }
@@ -25,11 +26,21 @@ namespace MonopolyRunner.Domains
 
         public static bool operator ==(Player player, Player otherPlayer)
         {
+            if(player == null)
+            {
+                return false;
+            }
+
             return player.Equals(otherPlayer);
         }
 
         public static bool operator !=(Player player, Player otherPlayer)
         {
+            if(player == null)
+            {
+                return true;
+            }
+
             return !player.Equals(otherPlayer);
         }
 

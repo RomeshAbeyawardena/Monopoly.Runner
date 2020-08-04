@@ -73,7 +73,7 @@ namespace MonopolyRunner.App
             if (gameSquare is PropertyGameSquare propGameSquare)
             {
                 propertyGameSquare = propGameSquare;
-                return IsPropertySquareOwned(board, propertyGameSquare);
+                return !IsPropertySquareOwned(board, propertyGameSquare);
             }
 
             return false;

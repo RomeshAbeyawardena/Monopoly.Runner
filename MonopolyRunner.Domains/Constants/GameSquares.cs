@@ -111,7 +111,7 @@ namespace MonopolyRunner.Domains.Constants
                 houseUnitCost: 5, 
                 hotelUnitCost: 10, 
                 houseRentUnitCosts: new long [] {8, 10, 40, 80, 140},
-                hotelRentUnitCosts: new long [] { 0, 50, 150, 250 }),
+                hotelRentUnitCosts: new long [] { 0, 50, 150, 250, 450 }),
             Create(GameSquareType.Property, name: "Bow Street", 
                 value: 180,
                 houseUnitCost: 5, 
